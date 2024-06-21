@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/download"
+            android:id="@+id/selectedImage"/>
+        <Chronometer
+            android:id="@+id/chronometer1"
+            android:layout_width="match_parent"
+            android:height="150dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="24dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="end"/>
+    </LinearLayout>
+
+    <GridView
+
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="160dp"
+        android:numColumns="2" />
+
+</RelativeLayout>

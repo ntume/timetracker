@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Time Use Tracker</string>
+    <string name="title_home">Home</string>
+    <string name="title_activities">Activities</string>
+    <string name="title_moods">Moods</string>
+    <string name="no_activity_running">No Activity running</string>
+</resources>

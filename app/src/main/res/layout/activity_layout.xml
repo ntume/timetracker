@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/main">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        >
+        <TextView
+            android:id="@+id/activity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="10dp"
+            android:text="Activity"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="10dp"
+            android:text="Duration"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="12sp" />
+        <LinearLayout
+            android:id="@+id/ssTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:padding="10dp"
+                android:text="Start Time"
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/sTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:padding="10dp"
+                android:text="10:00"
+                android:textAlignment="textStart"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/eeTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="10dp"
+            android:text="End Time"
+            android:textAlignment="textStart"
+            android:textColor="#000"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/eTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:padding="10dp"
+            android:text="10:00"
+            android:textAlignment="textStart"
+            android:textColor="#000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+
+    </GridLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+</LinearLayout>
