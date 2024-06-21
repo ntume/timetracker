@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1077489173207",
+    "project_id": "activities-tracker-9c67b",
+    "storage_bucket": "activities-tracker-9c67b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077489173207:android:0f6563d24f03759375e692",
+        "android_client_info": {
+          "package_name": "com.codeopticals.activitiestracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077489173207-8j8b6aealetflccvs1e49972bujvq0s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkO05CL9E-CghgoXveMANkbKhd9JA8_RE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077489173207-8j8b6aealetflccvs1e49972bujvq0s8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
